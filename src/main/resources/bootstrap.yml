@@ -6,5 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/jcarriong/bc46-config-data.git
           default-label: master
+          clone-on-start: true
+
+  application:
+    name: bc46-config-server
