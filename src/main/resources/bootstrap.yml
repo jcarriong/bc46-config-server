@@ -12,3 +12,10 @@ spring:
 
   application:
     name: bc46-config-server
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: s3cr3t
